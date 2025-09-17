@@ -1,0 +1,44 @@
+# ==========================================
+# Arquivo .gitignore criado apenas para fins
+# de aprendizado. Todos os exemplos estão
+# comentados para não afetar os arquivos do
+# projeto. Descomente o que quiser usar.
+# ==========================================
+
+# ========================
+# 1) Ignorar extensões
+# ========================
+# *.log      # Ignora todos os arquivos .log
+# *.pyc      # Ignora arquivos compilados do Python
+# *.env      # Ignora arquivos de variáveis de ambiente (segredos)
+
+
+# ========================
+# 2) Ignorar pastas
+# ========================
+# node_modules/   # Dependências do Node.js
+# venv/           # Ambiente virtual do Python
+# dist/           # Pastas de build/distribuição
+
+
+# ========================
+# 3) Ignorar arquivos específicos
+# ========================
+# secret.txt      # Apenas este arquivo será ignorado
+# README.md       # Exemplo (não recomendado em projetos reais)
+
+
+# ========================
+# 4) Ignorar tudo de uma pasta,
+#    mas manter um arquivo
+# ========================
+# config/*            # Ignora tudo dentro de config/
+# !config/default.json # Exceto este arquivo específico
+
+
+# ========================
+# 5) Ignorar arquivos do sistema/IDE
+# ========================
+# .vscode/   # Configurações do VS Code
+# .DS_Store  # Arquivos temporários do MacOS
+# Thumbs.db  # Arquivos temporários do Windows
